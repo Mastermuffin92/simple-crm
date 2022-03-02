@@ -11,6 +11,7 @@ import { DialogAddUserComponent } from '../dialog-add-user/dialog-add-user.compo
 export class UserComponent implements OnInit {
   user: User = new User();
 
+
   constructor(public dialog: MatDialog) { }
 
   ngOnInit(): void {
